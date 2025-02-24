@@ -42,31 +42,71 @@ def main(search_for, total):
             else:
                 previously_counted = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count()
 
-           # time.sleep(500000)
+
+
+            #time.sleep(500000)
 
 
         results = []
         for listing in listings:
-            listing.click()
-            page.wait_for_selector('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]')
+                listing.click()
+                page.wait_for_selector('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]')
 
-            data = {
-                "nombre": extract_data('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]', page),
-                "imagen": extract_data('//div[contains(@class, "RZ66Rb") and contains(@class, "FgCUCc")]//button//img/@src', page),
-                "direccion": extract_data('//button[@data-item-id="address"]//div[contains(@class, "fontBodyMedium")]', page),
-                "Web": extract_data('//a[@data-item-id="authority"]//div[contains(@class, "fontBodyMedium")]', page),
-                "GMB": extract_data('//a[@data-item-id="authority"]//div[contains(@class, "fontBodyMedium")]', page),
-                "Phone_Number": extract_data('//button[contains(@data-item-id, "phone:tel:")]//div[contains(@class, "fontBodyMedium")]', page),
-                "Reviews_Count": extract_data('//div[@class="TIHn2 "]//div[@class="fontBodyMedium dmRWX"]//div//span//span//span[@aria-label]', page),
-                "Reviews_Average": extract_data('//div[@class="TIHn2 "]//div[@class="fontBodyMedium dmRWX"]//div//span[@aria-hidden]', page),
-                "Store_Shopping": extract_data('//div[@class="LTs0Rc"][1]', page),
-                "In_Store_Pickup": extract_data('//div[@class="LTs0Rc"][2]', page),
-                "Store_Delivery": extract_data('//div[@class="LTs0Rc"][3]', page),
-                "tipologia": extract_data('//div[@class="LBgpqf"]//button[@class="DkEaL "]', page),
-                "descripcion": extract_data('//div[@class="WeS02d fontBodyMedium"]//div[@class="PYvSYb "]', page),
-            }
+
             
-            results.append(data)
+                share_buttons = page.locator('//span[@class="DVeyrd "]')
+                if share_buttons.count() >= 5:
+                    share_buttons.nth(4).click()  
+                    page.wait_for_timeout(5000)  
+
+               
+                    short_url_input = page.locator('//input[@class="vrsrZe"]')
+                    short_url = short_url_input.input_value() if short_url_input.count() > 0 else ""
+
+                    close_button = page.locator('//span[@class="G6JA1c google-symbols"]').first
+                    if close_button.count() > 0:
+                        close_button.click()
+                        page.wait_for_timeout(500)
+                else:
+                    short_url = ""
+
+                 
+            # Step 4: Open the short URL in a new Playwright context (to prevent losing the original page)
+                if short_url:
+                    context = page.context.new_page()  # Open a new tab
+                    context.goto(short_url, timeout=10000)
+                    page.wait_for_timeout(1500)  # Allow the page to load
+
+                    # Extract the image from the meta tag
+                    meta_image = context.locator('//meta[@itemprop="image"]').first
+                    image_url = meta_image.get_attribute("content") if meta_image.count() > 0 else ""
+
+                    # Close the new tab after extracting the image
+                    context.close()
+                else:
+                    image_url = ""
+
+    
+                data = {
+                    "nombre": extract_data('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]', page),
+                    "imagen": image_url,
+                    "direccion": extract_data('//button[@data-item-id="address"]//div[contains(@class, "fontBodyMedium")]', page),
+                    "Web": extract_data('//a[@data-item-id="authority"]//div[contains(@class, "fontBodyMedium")]', page),
+                    "GMB": short_url, 
+                    "Phone_Number": extract_data('//button[contains(@data-item-id, "phone:tel:")]//div[contains(@class, "fontBodyMedium")]', page),
+                    "Reviews_Count": extract_data('//div[@class="TIHn2 "]//div[@class="fontBodyMedium dmRWX"]//div//span//span//span[@aria-label]', page),
+                    "Reviews_Average": extract_data('//div[@class="TIHn2 "]//div[@class="fontBodyMedium dmRWX"]//div//span[@aria-hidden]', page),
+                    "Responde_reviews": bool(extract_data('//*[@class="nM6d2c"]', page)),
+                    "Store_Shopping": extract_data('//div[@class="LTs0Rc"][1]', page),
+                    "In_Store_Pickup": extract_data('//div[@class="LTs0Rc"][2]', page),
+                    "Store_Delivery": extract_data('//div[@class="LTs0Rc"][3]', page),
+                    "tipologia": extract_data('//div[@class="LBgpqf"]//button[@class="DkEaL "]', page),
+                    "descripcion": extract_data('//div[@class="WeS02d fontBodyMedium"]//div[@class="PYvSYb "]', page),
+                }
+
+                results.append(data)
+
+
         
         browser.close()
         print(json.dumps(results, indent=4, ensure_ascii=False))
