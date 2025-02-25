@@ -8,15 +8,17 @@ def extract_data(xpath, page):
 
 def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-dev-shm-usage", "--no-sandbox", "--disable-gpu", "--disable-software-rasterizer"]
+        )
         page = browser.new_page()
         
-        # Construct the URL dynamically
+      
         url = f"https://www.google.com/maps/search/{search_for}/@{lat},{lng},{zoom}z?&hl={lang}"
         page.goto(url, timeout=60000)
         page.wait_for_timeout(1000)
 
-        # Accept cookies if present
         accept_button = page.locator('//button[@aria-label="Aceptar todo"]').first
         if accept_button.count() > 0:
             accept_button.click()
