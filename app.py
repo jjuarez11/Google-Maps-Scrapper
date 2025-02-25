@@ -8,7 +8,7 @@ def extract_data(xpath, page):
 
 def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
     with sync_playwright() as p:
-        browser = p.chromium.launch(executable_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', headless=True)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         
         # Construct the URL dynamically
