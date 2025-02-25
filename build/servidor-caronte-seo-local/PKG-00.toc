@@ -1,0 +1,1473 @@
+('C:\\Users\\usuario\\Desktop\\Proyecto '
+ 'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\servidor-caronte-seo-local.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('app',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\app.py',
+   'PYSOURCE'),
+  ('playwright\\driver\\node.exe',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\node.exe',
+   'BINARY'),
+  ('playwright\\driver\\package\\bin\\PrintDeps.exe',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\PrintDeps.exe',
+   'BINARY'),
+  ('python38.dll',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\python38.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('greenlet\\_greenlet.cp38-win_amd64.pyd',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\greenlet\\_greenlet.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp38-win_amd64.pyd',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\markupsafe\\_speedups.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\usuario\\AppData\\Local\\Programs\\Python\\Python38\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('MSVCP140.dll', 'C:\\WINDOWS\\system32\\MSVCP140.dll', 'BINARY'),
+  ('playwright\\driver\\package\\lib\\client\\events.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\events.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\utils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\utils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\coverage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\coverage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\locator.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\locator.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\stackTrace.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\stackTrace.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crNetworkManager.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crNetworkManager.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\frameSelectors.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\frameSelectors.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\debugControllerDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\debugControllerDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\README.md',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\README.md',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\icon-256x256.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\icon-256x256.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\artifact.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\artifact.js',
+   'DATA'),
+  ('playwright\\driver\\package\\index.d.ts',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\index.d.ts',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\glob.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\glob.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\trace\\test\\inMemorySnapshotter.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\trace\\test\\inMemorySnapshotter.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\electron\\loader.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\electron\\loader.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\task.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\task.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffNetworkManager.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffNetworkManager.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\registry\\browserFetcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\registry\\browserFetcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\common\\socksProxy.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\common\\socksProxy.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\debugController.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\debugController.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\manualPromise.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\manualPromise.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffInput.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffInput.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\jsonPipe.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\jsonPipe.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\pipeTransport.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\pipeTransport.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\linuxUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\linuxUtils.js',
+   'DATA'),
+  ('playwright\\driver\\LICENSE',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\LICENSE',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\dialogDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\dialogDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\assets\\workbench-2b888248.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\assets\\workbench-2b888248.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\android\\android.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\android\\android.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\browser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\browser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_dev_win.ps1',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_dev_win.ps1',
+   'DATA'),
+  ('playwright\\driver\\package\\protocol.yml',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\protocol.yml',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\zipBundleImpl.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\zipBundleImpl.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\socksInterceptor.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\socksInterceptor.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\third_party\\pixelmatch.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\third_party\\pixelmatch.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\jsHandleDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\jsHandleDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\traceUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\traceUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\inProcessFactory.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\inProcessFactory.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\input.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\input.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\harRouter.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\harRouter.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\trace\\recorder\\snapshotterInjected.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\trace\\recorder\\snapshotterInjected.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\protocol\\validatorPrimitives.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\protocol\\validatorPrimitives.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\browser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\browser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\sw.bundle.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\sw.bundle.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\network.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\network.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\debugger.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\debugger.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\uiMode.html',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\uiMode.html',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\codicon-dcd00fb4.ttf',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\codicon-dcd00fb4.ttf',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\network.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\network.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\selectors.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\selectors.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\cdpSessionDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\cdpSessionDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\index.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\index.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\jsHandle.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\jsHandle.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\remote\\playwrightConnection.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\remote\\playwrightConnection.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkAccessibility.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkAccessibility.js',
+   'DATA'),
+  ('playwright\\driver\\package\\ThirdPartyNotices.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\ThirdPartyNotices.txt',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\frames.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\frames.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\httpServer.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\httpServer.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\macEditingCommands.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\macEditingCommands.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\androidServerImpl.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\androidServerImpl.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\common\\errors.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\common\\errors.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\protocol\\serializers.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\protocol\\serializers.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_beta_mac.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_beta_mac.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_dev_linux.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_dev_linux.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\stream.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\stream.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\progress.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\progress.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\comparators.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\comparators.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\deviceDescriptors.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\deviceDescriptors.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\cookieStore.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\cookieStore.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\trace\\recorder\\snapshotter.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\trace\\recorder\\snapshotter.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\htmlReport\\index.html',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\htmlReport\\index.html',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\common\\timeoutSettings.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\common\\timeoutSettings.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\localUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\localUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utilsBundleImpl.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utilsBundleImpl.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\accessibility.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\accessibility.js',
+   'DATA'),
+  ('playwright\\driver\\package\\cli.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\cli.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\cssParser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\cssParser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\locatorGenerators.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\locatorGenerators.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\deviceDescriptorsSource.json',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\deviceDescriptorsSource.json',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\types.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\types.js',
+   'DATA'),
+  ('playwright\\driver\\package\\package.json',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\package.json',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\index-e29b2102.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\index-e29b2102.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkInterceptableRequest.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkInterceptableRequest.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\android.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\android.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\pageDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\pageDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\cssTokenizer.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\cssTokenizer.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\icon-512x512.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\icon-512x512.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkPage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkPage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\chromium.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\chromium.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\browserDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\browserDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\page.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\page.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\har\\harRecorder.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\har\\harRecorder.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\firefox.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\firefox.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\registry\\nativeDeps.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\registry\\nativeDeps.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\localUtilsDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\localUtilsDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkProvisionalPage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkProvisionalPage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\screenshotter.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\screenshotter.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_chrome_stable_win.ps1',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_chrome_stable_win.ps1',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkConnection.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkConnection.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-32x32.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-32x32.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\frame.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\frame.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-512x512.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-512x512.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-16x16.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-16x16.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\selectorParser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\selectorParser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffConnection.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffConnection.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\formData.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\formData.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\eventsHelper.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\eventsHelper.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\playwright.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\playwright.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\browserContext.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\browserContext.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crInput.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crInput.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\connection.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\connection.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\fetch.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\fetch.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\accessibility.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\accessibility.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\remote\\playwrightServer.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\remote\\playwrightServer.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_chrome_stable_linux.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_chrome_stable_linux.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crDevTools.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crDevTools.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_dev_mac.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_dev_mac.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\network.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\network.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\defaultFontFamilies.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\defaultFontFamilies.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkBrowser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkBrowser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\README.md',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\README.md',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\traceUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\traceUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\index.html',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\index.html',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\consoleMessageDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\consoleMessageDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\api.json',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\api.json',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\java.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\java.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\electronDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\electronDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\locatorParser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\locatorParser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\browserType.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\browserType.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\profiler.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\profiler.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\fetch.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\fetch.js',
+   'DATA'),
+  ('playwright\\driver\\playwright.cmd',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\playwright.cmd',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\video.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\video.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_beta_linux.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_beta_linux.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\channelOwner.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\channelOwner.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\popout.html',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\popout.html',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\download.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\download.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\transport.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\transport.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkInput.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkInput.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\happy-eyeballs.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\happy-eyeballs.js',
+   'DATA'),
+  ('playwright\\driver\\package\\browsers.json',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\browsers.json',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\browserTypeDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\browserTypeDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\elementHandlerDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\elementHandlerDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\index.html',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\index.html',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\frameDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\frameDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\language.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\language.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\isomorphic\\utilityScriptSerializers.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\isomorphic\\utilityScriptSerializers.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\inprocess.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\inprocess.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\python.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\python.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\icon-32x32.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\icon-32x32.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\zipFile.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\zipFile.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\mimeType.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\mimeType.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\videoRecorder.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\videoRecorder.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dom.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dom.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\generated\\injectedScriptSource.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\generated\\injectedScriptSource.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\fileChooser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\fileChooser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\image_tools\\colorUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\image_tools\\colorUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\codeMirrorModule-5d0f417c.css',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\codeMirrorModule-5d0f417c.css',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_stable_win.ps1',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_stable_win.ps1',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\consoleMessage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\consoleMessage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\outofprocess.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\outofprocess.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\recorderApp.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\recorderApp.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crPage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crPage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\env.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\env.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\writableStream.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\writableStream.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\userAgent.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\userAgent.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\processLauncherCleanupEntrypoint.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\processLauncherCleanupEntrypoint.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffExecutionContext.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffExecutionContext.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_beta_win.ps1',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_beta_win.ps1',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\selectorsDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\selectorsDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\javascript.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\javascript.js',
+   'DATA'),
+  ('playwright\\driver\\package\\index.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\index.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\hostPlatform.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\hostPlatform.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\trace\\viewer\\traceViewer.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\trace\\viewer\\traceViewer.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\codicon.dcd00fb4.ttf',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\codicon.dcd00fb4.ttf',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\timeoutRunner.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\timeoutRunner.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\instrumentation.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\instrumentation.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\types.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\types.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\assets\\xtermModule-0fb1e5c9.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\assets\\xtermModule-0fb1e5c9.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\image_tools\\compare.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\image_tools\\compare.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\icon-192x192.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\icon-192x192.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\recorderUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\recorderUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_chrome_stable_mac.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_chrome_stable_mac.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\cli\\cli.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\cli\\cli.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\uiMode.79da54b1.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\uiMode.79da54b1.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-192x192.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-192x192.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\registry\\oopDownloadMain.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\registry\\oopDownloadMain.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crExecutionContext.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crExecutionContext.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\third_party\\diff_match_patch.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\third_party\\diff_match_patch.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\install_media_pack.ps1',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\install_media_pack.ps1',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\clientInstrumentation.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\clientInstrumentation.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crBrowser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crBrowser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\registry\\index.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\registry\\index.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\elementHandle.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\elementHandle.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\uiMode.ba7546d8.css',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\uiMode.ba7546d8.css',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\jsonPipeDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\jsonPipeDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\recorderActions.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\recorderActions.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\selectors.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\selectors.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\networkDispatchers.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\networkDispatchers.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crServiceWorker.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crServiceWorker.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\stringUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\stringUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\common\\debugLogger.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\common\\debugLogger.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\electron\\electron.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\electron\\electron.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\webkit.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\webkit.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-384x384.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-384x384.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\protocol\\validator.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\protocol\\validator.js',
+   'DATA'),
+  ('playwright\\py.typed',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\py.typed',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\playwrightDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\playwrightDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\streamDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\streamDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\joiningEventEmitter.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\joiningEventEmitter.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\fileChooser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\fileChooser.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\codeMirrorModule-83ce17c1.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\codeMirrorModule-83ce17c1.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\console.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\console.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\artifactDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\artifactDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_stable_mac.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_stable_mac.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\generated\\consoleApiSource.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\generated\\consoleApiSource.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\usKeyboardLayout.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\usKeyboardLayout.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crPdf.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crPdf.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\spawnAsync.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\spawnAsync.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_msedge_stable_linux.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_msedge_stable_linux.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\electron.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\electron.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\tracing.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\tracing.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\csharp.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\csharp.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\androidDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\androidDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\input.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\input.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\download.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\download.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\generated\\utilityScriptSource.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\generated\\utilityScriptSource.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\time.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\time.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\fileUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\fileUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\icon-384x384.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\icon-384x384.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffBrowser.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffBrowser.js',
+   'DATA'),
+  ('playwright\\driver\\README.md',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\README.md',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\playwright.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\playwright.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\writableStreamDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\writableStreamDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\browserContext.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\browserContext.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\index-26e56fd7.css',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\assets\\index-26e56fd7.css',
+   'DATA'),
+  ('playwright\\driver\\package\\index.mjs',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\index.mjs',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\index.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\index.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\helper.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\helper.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_chrome_beta_win.ps1',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_chrome_beta_win.ps1',
+   'DATA'),
+  ('playwright\\driver\\package\\types\\protocol.d.ts',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\types\\protocol.d.ts',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\recorder\\icon-16x16.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\recorder\\icon-16x16.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\registry\\dependencies.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\registry\\dependencies.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\zipBundle.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\zipBundle.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffAccessibility.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffAccessibility.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\waiter.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\waiter.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\xtermModule.6428296b.css',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\xtermModule.6428296b.css',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\headers.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\headers.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\workbench.ef83f2a1.css',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\workbench.ef83f2a1.css',
+   'DATA'),
+  ('playwright\\driver\\package\\types\\types.d.ts',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\types\\types.d.ts',
+   'DATA'),
+  ('playwright\\driver\\package\\types\\structs.d.ts',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\types\\structs.d.ts',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\page.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\page.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\clientHelper.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\clientHelper.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crConnection.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crConnection.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\recorder\\codeGenerator.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\recorder\\codeGenerator.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkWorkers.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkWorkers.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\har\\harTracer.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\har\\harTracer.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\trace\\recorder\\tracing.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\trace\\recorder\\tracing.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\generated\\recorderSource.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\generated\\recorderSource.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\dispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\dispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\index.8feaf88c.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\index.8feaf88c.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\crypto.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\crypto.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\firefox\\ffPage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\firefox\\ffPage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\artifact.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\artifact.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_chrome_beta_linux.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_chrome_beta_linux.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\debug.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\debug.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\codeMirrorModule.5d0f417c.css',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\codeMirrorModule.5d0f417c.css',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\appIcon.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\appIcon.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\image_tools\\imageChannel.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\image_tools\\imageChannel.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\cli\\driver.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\cli\\driver.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\isomorphic\\locatorUtils.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\isomorphic\\locatorUtils.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\worker.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\worker.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\image_tools\\stats.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\image_tools\\stats.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\assets\\codeMirrorModule-2ed085ef.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\assets\\codeMirrorModule-2ed085ef.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\browserContextDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\browserContextDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dispatchers\\tracingDispatcher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dispatchers\\tracingDispatcher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\dialog.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\dialog.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crDragDrop.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crDragDrop.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crApp.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crApp.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\dialog.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\dialog.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\browserServerImpl.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\browserServerImpl.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crAccessibility.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crAccessibility.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\protocol\\debug.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\protocol\\debug.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\browserType.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\browserType.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\webkit\\wkExecutionContext.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\webkit\\wkExecutionContext.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\javascript.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\javascript.js',
+   'DATA'),
+  ('playwright\\driver\\package\\bin\\reinstall_chrome_beta_mac.sh',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\bin\\reinstall_chrome_beta_mac.sh',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utilsBundle.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utilsBundle.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\cdpSession.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\cdpSession.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\protocol\\transport.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\protocol\\transport.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\common\\types.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\common\\types.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crCoverage.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crCoverage.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\client\\api.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\client\\api.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\android\\backendAdb.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\android\\backendAdb.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\crProtocolHelper.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\crProtocolHelper.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\zones.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\zones.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\chromium\\chromiumSwitches.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\chromium\\chromiumSwitches.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\processLauncher.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\processLauncher.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\multimap.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\multimap.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\rtti.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\rtti.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\server\\protocolError.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\server\\protocolError.js',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-256x256.png',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\webpack\\traceViewer\\icon-256x256.png',
+   'DATA'),
+  ('playwright\\driver\\package\\lib\\utils\\ascii.js',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\playwright\\driver\\package\\lib\\utils\\ascii.js',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\METADATA',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\RECORD',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\RECORD',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\INSTALLER',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\LICENSE',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\LICENSE',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\top_level.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\WHEEL',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\RECORD',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\RECORD',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\itsdangerous-2.2.0.dist-info\\RECORD',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\INSTALLER',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\blinker-1.8.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\RECORD',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\blinker-1.8.2.dist-info\\RECORD',
+   'DATA'),
+  ('werkzeug-3.0.6.dist-info\\INSTALLER',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\werkzeug-3.0.6.dist-info\\INSTALLER',
+   'DATA'),
+  ('werkzeug-3.0.6.dist-info\\LICENSE.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\werkzeug-3.0.6.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.0.6.dist-info\\WHEEL',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\werkzeug-3.0.6.dist-info\\WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\METADATA',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\itsdangerous-2.2.0.dist-info\\METADATA',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\REQUESTED',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\REQUESTED',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\INSTALLER',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\METADATA',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\blinker-1.8.2.dist-info\\METADATA',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\METADATA',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\METADATA',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\WHEEL',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\blinker-1.8.2.dist-info\\WHEEL',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\WHEEL',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.0.6.dist-info\\RECORD',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\werkzeug-3.0.6.dist-info\\RECORD',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\LICENSE.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\blinker-1.8.2.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\entry_points.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\entry_points.txt',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\LICENSE.txt',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\flask-3.0.3.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('werkzeug-3.0.6.dist-info\\METADATA',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\werkzeug-3.0.6.dist-info\\METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\WHEEL',
+   'c:\\users\\usuario\\desktop\\proyecto '
+   'scrapper\\google-maps-scrapper\\.venv\\lib\\site-packages\\itsdangerous-2.2.0.dist-info\\WHEEL',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\usuario\\Desktop\\Proyecto '
+   'Scrapper\\Google-Maps-Scrapper\\build\\servidor-caronte-seo-local\\base_library.zip',
+   'DATA')],
+ 'python38.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
