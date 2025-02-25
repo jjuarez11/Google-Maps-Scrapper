@@ -8,7 +8,8 @@ def extract_data(xpath, page):
 
 def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(executable_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', headless=True)
+
         page = browser.new_page()
         
         # Construct the URL dynamically
@@ -45,7 +46,7 @@ def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
             share_buttons = page.locator('//span[@class="DVeyrd "]')
             if share_buttons.count() >= 5:
                 share_buttons.nth(4).click()
-                page.wait_for_timeout(5000)
+                page.wait_for_timeout(8000)
                 short_url_input = page.locator('//input[@class="vrsrZe"]')
                 short_url = short_url_input.input_value() if short_url_input.count() > 0 else ""
                 
