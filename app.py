@@ -4,7 +4,8 @@ from playwright.sync_api import sync_playwright
 app = Flask(__name__)
 
 def extract_data(xpath, page):
-    return page.locator(xpath).first.inner_text() if page.locator(xpath).count() > 0 else ""
+    element = page.locator(xpath).first
+    return element.inner_text() if element.count() > 0 else ""
 
 def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
     with sync_playwright() as p:
@@ -14,40 +15,39 @@ def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
         )
         page = browser.new_page()
         
-      
         url = f"https://www.google.com/maps/search/{search_for}/@{lat},{lng},{zoom}z?&hl={lang}"
         page.goto(url, timeout=60000)
-        page.wait_for_timeout(1000)
-
+        
         accept_button = page.locator('//button[@aria-label="Aceptar todo"]').first
         if accept_button.count() > 0:
             accept_button.click()
-            page.wait_for_timeout(1000)
+            page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]')
 
         previously_counted = 0
         while True:
             page.mouse.wheel(0, 10000)
             page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]')
 
-            if page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count() >= total:
+            current_count = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count()
+            if current_count >= total:
                 listings = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').all()[:total]
                 listings = [listing.locator("xpath=..") for listing in listings]
                 break
-            elif page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count() == previously_counted:
+            elif current_count == previously_counted:
                 listings = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').all()
                 break
             else:
-                previously_counted = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count()
+                previously_counted = current_count
 
         results = []
         for listing in listings:
             listing.click()
             page.wait_for_selector('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]')
-
-            share_buttons = page.locator('//span[@class="DVeyrd "]')
-            if share_buttons.count() >= 5:
-                share_buttons.nth(4).click()
-                page.wait_for_timeout(5000)
+             
+            share_buttons = page.locator('//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[4]/div[5]/button/span')
+            if share_buttons.count() > 0:
+                share_buttons.click()
+                page.wait_for_selector('//input[@class="vrsrZe"]')
                 short_url_input = page.locator('//input[@class="vrsrZe"]')
                 short_url = short_url_input.input_value() if short_url_input.count() > 0 else ""
                 
@@ -58,10 +58,9 @@ def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
                     }
                 ''')
 
-                close_button = page.locator('//span[@class="G6JA1c google-symbols"]').first
+                close_button = page.locator('//*[@id="modal-dialog"]/div/div[2]/div/button/span').first
                 if close_button.count() > 0:
                     close_button.click()
-                    page.wait_for_timeout(500)
             else:
                 short_url = ""
                 image_url = ""
@@ -98,6 +97,10 @@ def get_places():
 
     results = scrape_maps(search_for, lat, lng, zoom, lang, total)
     return jsonify(results)
+
+@app.route('/', methods=['GET'])
+def holamundo():
+    return "Hola Mundo"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000, debug=True)
