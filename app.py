@@ -18,7 +18,7 @@ def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
         url = f"https://www.google.com/maps/search/{search_for}/@{lat},{lng},{zoom}z?&hl={lang}"
         page.goto(url, timeout=60000)
         
-        accept_button = page.locator('//button[@aria-label="Aceptar todo"]').first
+        accept_button = page.locator('//button[@aria-label="Accept all"]').first
         if accept_button.count() > 0:
             accept_button.click()
             page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]')
