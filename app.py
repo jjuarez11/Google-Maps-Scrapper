@@ -21,12 +21,12 @@ def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
         accept_button = page.locator('//button[@aria-label="Accept all"]').first
         if accept_button.count() > 0:
             accept_button.click()
-            page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]')
+            page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]', timeout=60000)
 
         previously_counted = 0
         while True:
             page.mouse.wheel(0, 10000)
-            page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]')
+            page.wait_for_selector('//a[contains(@href, "https://www.google.com/maps/place")]', timeout=60000)
 
             current_count = page.locator('//a[contains(@href, "https://www.google.com/maps/place")]').count()
             if current_count >= total:
@@ -42,12 +42,12 @@ def scrape_maps(search_for, lat, lng, zoom, lang, total=20):
         results = []
         for listing in listings:
             listing.click()
-            page.wait_for_selector('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]')
+            page.wait_for_selector('//div[@class="TIHn2 "]//h1[@class="DUwDvf lfPIob"]', timeout=60000)
              
             share_buttons = page.locator('//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[4]/div[5]/button/span')
             if share_buttons.count() > 0:
                 share_buttons.click()
-                page.wait_for_selector('//input[@class="vrsrZe"]')
+                page.wait_for_selector('//input[@class="vrsrZe"]', timeout=60000)
                 short_url_input = page.locator('//input[@class="vrsrZe"]')
                 short_url = short_url_input.input_value() if short_url_input.count() > 0 else ""
                 
