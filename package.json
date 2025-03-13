@@ -4,7 +4,8 @@
   "description": "This Node.js script utilizes Puppeteer and Express to create a visitable API to get the information of different businesses on Google Maps.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "puppeteer install"
   },
   "dependencies": {
     "express": "^4.17.1",
