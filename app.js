@@ -48,6 +48,7 @@ const getMapsData = async (searchFor, lat, lng, zoom, lang, total) => {
     const browser = await puppeteer.launch({
         headless: true,
         args: ["--disabled-setuid-sandbox", "--no-sandbox"],
+        executablePath: '/usr/bin/chromium-browser'
     });
     const [page] = await browser.pages();
     await page.setExtraHTTPHeaders({

@@ -9,5 +9,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "puppeteer": "^19.0.0"
+  },
+  "puppeteer": {
+    "executablePath": "/usr/bin/chromium-browser"
   }
 }
