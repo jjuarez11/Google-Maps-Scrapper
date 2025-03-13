@@ -1,2 +1,3 @@
 #!/bin/bash
-node app.js
+npm install
+npm start
