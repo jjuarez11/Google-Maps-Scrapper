@@ -1,4 +1,0 @@
-Flask
-gunicorn
-selenium
-webdriver-manager
