@@ -48,7 +48,8 @@ const scrollPage = async(page, scrollContainer, itemTargetCount) => {
 const getMapsData = async (searchFor, lat, lng, zoom, lang, total) => {
     const browser = await puppeteer.launch({
         headless: true,
-        args: ["--disable-setuid-sandbox", "--no-sandbox"]
+        args: ["--disable-setuid-sandbox", "--no-sandbox"],
+        executablePath: path.resolve(__dirname, '.cache/puppeteer/chrome-linux/chrome')
     });
     const [page] = await browser.pages();
     await page.setExtraHTTPHeaders({
