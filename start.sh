@@ -1,5 +1,4 @@
 #!/bin/bash
 npm install
-npm install puppeteer-core
-npm install puppeteer
+node node_modules/puppeteer/install.mjs
 npm start
