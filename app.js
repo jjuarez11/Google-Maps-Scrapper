@@ -1,5 +1,6 @@
 const express = require('express');
 const puppeteer = require('puppeteer');
+const path = require('path');
 
 const app = express();
 
@@ -47,7 +48,7 @@ const scrollPage = async(page, scrollContainer, itemTargetCount) => {
 const getMapsData = async (searchFor, lat, lng, zoom, lang, total) => {
     const browser = await puppeteer.launch({
         headless: true,
-        args: ["--disabled-setuid-sandbox", "--no-sandbox"]
+        args: ["--disable-setuid-sandbox", "--no-sandbox"]
     });
     const [page] = await browser.pages();
     await page.setExtraHTTPHeaders({
@@ -100,8 +101,10 @@ app.get('/get_places', async (req, res) => {
     }
 });
 
-app.get('/', (req, res) => {
-    res.send("Hola Mundo");
+app.get('/', async (req, res) => {
+    const puppeteerVersion = require('puppeteer/package.json').version;
+    const puppeteerExecutablePath = puppeteer.executablePath();
+    res.send(`Puppeteer version: ${puppeteerVersion}<br>Executable path: ${puppeteerExecutablePath}`);
 });
 
 const PORT = process.env.PORT || 10000;
