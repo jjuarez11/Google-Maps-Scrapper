@@ -1,17 +1,17 @@
 {
   "name": "google-maps-scrapper",
   "version": "1.0.0",
-  "description": "This Node.js script utilizes Puppeteer and Express to create a visitable API to get the information of different businesses on Google Maps.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "puppeteer install"
+    "start": "node app.js"
   },
   "dependencies": {
+    "@nestjs/common": "^8.0.0",
     "express": "^4.17.1",
-    "puppeteer": "^19.0.0"
+    "puppeteer": "^22.11.0",
+    "puppeteer-core": "^22.15.0"
   },
-  "puppeteer": {
-    "cacheDirectory": "./.cache/puppeteer"
+  "devDependencies": {
+    "@sparticuz/chromium": "^133.0.0"
   }
 }
